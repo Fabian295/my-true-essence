@@ -1,5 +1,5 @@
         <!-- <div>
-            <?php  previous_posts_link();?>
+        <?php  previous_posts_link();?>
         <?php next_posts_link();?> 
     </div> -->
 
@@ -10,6 +10,7 @@
 
 
 
+    This is the CATEGORY BLOG Template
       <div class="container page">
 
 

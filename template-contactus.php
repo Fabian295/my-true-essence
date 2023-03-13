@@ -9,6 +9,9 @@ Template Name: Contact Us
 
 <?php get_header();?>
 
+
+<section class="page-wrap">
+
 <div class="container">
 
 
@@ -41,7 +44,11 @@ Template Name: Contact Us
 </div>
 
 
+</section>
 
 
+<footer >
 
-<?php get_footer();?>
+  <?php get_footer('secondary');?>
+
+</footer>

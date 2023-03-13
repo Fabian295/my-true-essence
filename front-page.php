@@ -1,19 +1,22 @@
 <?php get_header('secondary');?>
 
-  <div class="container">
+
+  <section class="page-wrap">
+
+    <div class="container home">
 
 
-    <h1><?php the_title();?></h1>
+      <h1 class="title"><?php the_title();?></h1>
 
-    <?php get_template_part('includes/section', 'content');?>
-
-
-
-
-  </div>
+      <?php get_template_part('includes/section', 'content');?>
 
 
 
+
+    </div>
+
+
+  </section>
 
 
 <?php get_footer('secondary');?>
